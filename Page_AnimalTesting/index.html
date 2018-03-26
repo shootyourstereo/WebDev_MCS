@@ -6,22 +6,25 @@
 	<meta description="animal testing">
 	<meta keywords="animal, testing">
 	<link rel="stylesheet" href="css/style.css">
+	<!-- классно, что сделала фавикон, но что за переносы строк, зачам они? -->
 	<link rel="icon" 
       type="image/png" 
       href="img/favicon.png">
 
 </head>
 <body>
+	<!-- что-то не так с отступами в коде, код некрасивый -->
+	<!-- этот div лучше назвать классом page или как-то так -->
 	<div>
 		
 		<header>
 			<div class="header">
 				<h1>Against animal testing</h1>
 			</div>
-
+	<!-- трабл с семантикой. header — это шапка сайта, main это все кроме шапки и подвала. main некорректно помещать в header -->
 	<main>
 			<div class="background">
-				
+				<!-- прикольная идея, но section лучше обозначить каким-то классом -->
 				<section> </section>
 				<div class="sectionTwo"> </div>
 				<section> </section>
@@ -46,8 +49,10 @@
 
 
 			<div class="text">
+				<!-- это стремно, класть заголовки внутрь параграфа, обычно заголовок предшествует параграфу. В твоем случае лучше делать отдельные параграфы под каждым заголовком -->
 				<p>
 				<h2>Trapped in cages</h2>
+				<!-- обычно br ставится в конце строки, которую нужно перенести -->
 					<br>
 					Right now, millions of mice, rats, rabbits, primates, cats, dogs, and other animals are locked inside barren cages in laboratories across the country. They languish in pain, suffer from extreme frustration, ache with loneliness, and long to be free.
 				
@@ -99,6 +104,7 @@
 
 
 			<div class="linkSection">
+				<!-- тут хреново, что / - тоже ссылка. Вынеси ее за пределы a -->
 				<a href="">About/</a>
 				<a href="">Other projects/</a>
 				<a href="">Contact</a>
@@ -107,7 +113,7 @@
 		</header>
 
 	
-			
+		<!-- вот тут опять трабл. если main лежит в header, что очень не феншуйно, то почему он закрыватся за пределами header? -->	
 		</main>
 
 		<footer>
