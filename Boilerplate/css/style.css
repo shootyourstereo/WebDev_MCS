@@ -1,10 +1,7 @@
-<<<<<<< HEAD
- @import url(reset.css);
+@import url(reset.css);
 
-=======
  /* в бойлерплейте я уже ждал ресета для будущей работы */
- /* какой-то ненужный пробел перед body */
->>>>>>> b35b6902240e9dc6295e00fda61cd31a69302128
- body {
+
+body {
  	background: red;
  }

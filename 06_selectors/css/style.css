@@ -11,9 +11,8 @@ section {
  #section2 {
  	color: green;
  }
- /* до этого момента между селектором и { был пробел и между свойством и значением тоже */
  footer div{
- 	color:pink;
+ 	color: pink;
  }
  nav, h2 {
  	color: grey;
