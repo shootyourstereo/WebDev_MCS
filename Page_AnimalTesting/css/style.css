@@ -1,11 +1,16 @@
  @import url(reset.css);
  @import url('https://fonts.googleapis.com/css?family=Montserrat|Oswald|Roboto+Condensed');
 
-body {
+.page {
 	font-family: 'Montsserat', sans-serif;
 }
 
-header {
+a {
+	text-decoration: none;
+	color: white;
+}
+
+.header {
 	background-color: #b00e0e;
 	line-height: 100px;
 	text-align: center;
@@ -13,11 +18,6 @@ header {
 	font-family: 'Roboto Condensed', sans-serif;
 	text-transform: uppercase;
 	font-weight: bold;
-	color: white;
-}
-
-a {
-	text-decoration: none;
 	color: white;
 }
 
