@@ -14,6 +14,11 @@ h1 {
 	padding-bottom: 10px;
 }
 
+a {
+	text-decoration: none;
+	color: white;
+}
+
 .header {
 	width: 100%;
 	background-color: rgba(117, 190, 218, 0.5);
@@ -51,12 +56,21 @@ h1 {
 	background-color: yellow;
 }
 
-
 .footer {
-  height: 50px;
-  margin-top: 10px;
-  background-color: black;
-  color: white;
-  padding: 15px;
-  box-sizing: border-box;
+  	height: 50px;
+  	margin-top: 10px;
+  	background-color: black;
+  	color: white;
+  	padding: 15px;
+  	box-sizing: border-box;
+  	position: relative;
+}
+
+.copy {
+	position: absolute;
+	right: 30px;
+}
+
+.back {
+	margin-left: 20px;
 }

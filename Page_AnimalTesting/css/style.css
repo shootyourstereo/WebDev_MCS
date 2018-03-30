@@ -1,9 +1,7 @@
  @import url(reset.css);
  @import url('https://fonts.googleapis.com/css?family=Montserrat|Oswald|Roboto+Condensed');
 
-.page {
-	font-family: 'Montsserat', sans-serif;
-}
+.page {font-family: 'Montsserat', sans-serif;}
 
 a {
 	text-decoration: none;
