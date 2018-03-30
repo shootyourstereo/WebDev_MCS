@@ -1,0 +1,62 @@
+@import url(reset.css);
+
+img {
+	height: 200px;
+}
+.page {
+	font-family: sans-serif;
+}
+
+h1 {
+	font-family: serif;
+	font-style: bold;
+	font-size: 40px;
+	padding-bottom: 10px;
+}
+
+.header {
+	width: 100%;
+	background-color: rgba(117, 190, 218, 0.5);
+	position: fixed;
+	box-sizing: border-box;
+}
+
+.glasses {
+	display: inline-block;
+}
+
+.column {
+	width: 310px;
+	height: 1070px;
+	font-size: 20px;
+	display: inline-block;
+  	vertical-align: top;
+  	box-sizing: border-box;
+  	margin-top: 300px;
+  	border: 2px solid black;
+  	padding: 40px 20px;
+  	margin-right: 100px;
+  	margin-left: 65px;
+}
+
+.columnOne {
+	background-color: violet;
+}
+
+.columnTwo {
+	background-color: orange;
+}
+
+.columnThree {
+	background-color: yellow;
+}
+
+
+.footer {
+  height: 50px;
+  margin-top: 10px;
+  background-color: black;
+  color: white;
+  padding: 15px;
+  box-sizing: border-box;
+}
