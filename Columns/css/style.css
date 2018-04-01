@@ -26,14 +26,17 @@ a {
 	box-sizing: border-box;
 }
 
-/* помни про обнуление отступов например */
 .glasses {
 	display: inline-block;
 }
 
-/* почему бы не сделать один контейнер, который будет хранить все колонки, и его выровнять по центру (.text подойдет на эту роль) вместо сложных манипуляций с margin-left. Ведь есть margin: auto; которое так клево все выравнивает по центру */
+.text {
+	width: 90%;
+	margin: auto;
+}
+
 .column {
-	width: 310px;
+	width: 350px;
 	height: 1070px;
 	font-size: 20px;
 	display: inline-block;
@@ -42,11 +45,10 @@ a {
   	margin-top: 300px;
   	border: 2px solid black;
   	padding: 40px 20px;
-  	margin-right: 100px;
-  	margin-left: 65px;
+  	margin-right: 30px;
+  	margin-left: 40px;
 }
 
-/* я не нашел у тебя таких классов в html */
 .columnOne {
 	background-color: violet;
 }
@@ -70,8 +72,9 @@ a {
 }
 
 .copy {
-	position: absolute; /* неплохая идея, но лучше top или bottom тоже писать*/
+	position: absolute;
 	right: 30px;
+	bottom: 20px;
 }
 
 .back {
