@@ -26,10 +26,12 @@ a {
 	box-sizing: border-box;
 }
 
+/* помни про обнуление отступов например */
 .glasses {
 	display: inline-block;
 }
 
+/* почему бы не сделать один контейнер, который будет хранить все колонки, и его выровнять по центру (.text подойдет на эту роль) вместо сложных манипуляций с margin-left. Ведь есть margin: auto; которое так клево все выравнивает по центру */
 .column {
 	width: 310px;
 	height: 1070px;
@@ -44,6 +46,7 @@ a {
   	margin-left: 65px;
 }
 
+/* я не нашел у тебя таких классов в html */
 .columnOne {
 	background-color: violet;
 }
@@ -67,7 +70,7 @@ a {
 }
 
 .copy {
-	position: absolute;
+	position: absolute; /* неплохая идея, но лучше top или bottom тоже писать*/
 	right: 30px;
 }
 
