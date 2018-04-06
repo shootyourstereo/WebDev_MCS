@@ -54,7 +54,7 @@ a {
 	background-repeat: no-repeat;
 	background-position: center;
 	display: inline-block;
-	margin-right: 20px;
+	margin-right: 20px; /* вот эти margin не дают тебе оставить их на одной строке, придется уменьшить ширину колонки на 40px для реализации задумки */
   	margin-left: 20px;
 }
 		
@@ -75,7 +75,7 @@ a {
   	margin-top: 300px;
   	border: 2px solid black;
   	padding: 40px 20px;
-  	margin-right: 20px;
+  	margin-right: 20px; /* вот эти margin не дают тебе оставить их на одной строке, придется уменьшить ширину колонки на 40px для реализации задумки */
   	margin-left: 20px;
 }
 

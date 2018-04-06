@@ -58,7 +58,7 @@ h1 {
 	border: 5px solid #2fcc1e;
 	font-family: sans-serif;
 	box-sizing: border-box;
-	margin: 25px 200px;
+	margin: 25px 200px; /* попробуй все же ширину в процентах и margin auto. Станет лучше */
     padding: 20px;
 	line-height: 25px;
  
@@ -93,7 +93,7 @@ h1 {
 
 .start {
 	height: 150px;
-	float: right;
+	float: right; /* лучше через flex. но если все же float, то нужен clear: both; в блоке под ним */
 }
 
 .footer {
@@ -114,4 +114,4 @@ h1 {
 
 a:hover {
 	color: black;
-}
+} /* понял, почему это внизу, можно было бы оставить сверху, но отдельно написать .footer a:hover; от затирает то, что выше */
