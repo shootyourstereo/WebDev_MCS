@@ -11,6 +11,9 @@ a {
 	font-family: 'Press Start 2P', cursive;
 }
 
+a:hover {
+	color: black;
+}
 
 h1 {
 	font-size: 30px;
@@ -53,12 +56,13 @@ h1 {
 }
 
 .text {
+	width: 60%;
 	color: white;
 	font-size: 15px;
 	border: 5px solid #2fcc1e;
 	font-family: sans-serif;
 	box-sizing: border-box;
-	margin: 25px 200px; /* попробуй все же ширину в процентах и margin auto. Станет лучше */
+	margin: auto;
     padding: 20px;
 	line-height: 25px;
  
@@ -93,7 +97,11 @@ h1 {
 
 .start {
 	height: 150px;
-	float: right; /* лучше через flex. но если все же float, то нужен clear: both; в блоке под ним */
+	float: right;
+}
+
+.clear {
+	clear: both;
 }
 
 .footer {
@@ -101,8 +109,9 @@ h1 {
 	background-color: magenta;
 	display: flex;
 	justify-content: flex-end;
-	margin-top: 50px;
+	margin-top: 150px;
 	align-items: center;
+
 }
 
 .footer a {
@@ -110,8 +119,8 @@ h1 {
 	color: white;
 	font-size: 18px;
 	margin-right: 20px;
+
 }
 
-a:hover {
+.footer a:hover {
 	color: black;
-} /* понял, почему это внизу, можно было бы оставить сверху, но отдельно написать .footer a:hover; от затирает то, что выше */

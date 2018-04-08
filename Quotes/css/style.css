@@ -1,0 +1,87 @@
+@import url(reset.css);
+
+@font-face {
+	src: url(../font/Turtles.ttf);
+	font-family: 'Turtles';
+}
+
+body {
+background-image: linear-gradient(to right bottom, #CE9FFC, #7367F0);
+}
+
+.header {
+	background-color: rgb(123,195,20);
+	height: 80px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.header h1 {
+ 	font-family: 'Turtles';
+ 	font-size: 3em;
+ 	color: white;
+ }
+
+.columns {
+	display: flex;
+	justify-content: space-around;
+	margin-top: 10%;
+	margin-bottom: 10%;
+}
+
+.column {
+	width: calc((100% - 200px)/4);
+	/*min-height: 100px;*/
+	background-color: rgb(123,195,20);
+	font-family: sans-serif;
+	color: white;
+	line-height: 22px;
+}
+
+.column h2 {
+	font-size: 2em;
+	font-weight: bold;
+	text-align: center;
+	padding-top: 20px;
+}
+
+.column p {
+	padding: 20px;
+	font-size: 1,2em;
+}
+
+.image {
+	background-size: cover;
+	padding-bottom: 100%;
+}
+
+.image.L {
+	background-image: url(../img/L.png);
+}
+
+.image.R {
+	background-image: url(../img/R.png);
+}
+
+.image.M {
+	background-image: url(../img/M.png);
+}
+
+.image.D {
+	background-image: url(../img/D.png);
+}
+
+.footer {
+	background-color: rgb(123,195,20);
+	height: 80px;
+	display: flex;
+	align-items: center;
+}
+
+.footer nav {
+	font-family: sans-serif;
+ 	font-size: 2em;
+ 	color: white;
+ 	margin-left: 20px;
+}
