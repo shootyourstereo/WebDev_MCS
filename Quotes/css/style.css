@@ -9,6 +9,13 @@ body {
 background-image: linear-gradient(to right bottom, #CE9FFC, #7367F0);
 }
 
+a {
+	text-decoration: none;
+	color: white;
+	font-size: 20px;
+	font-family: sans-serif;
+}
+
 .header {
 	background-color: rgb(123,195,20);
 	height: 80px;
@@ -74,14 +81,11 @@ background-image: linear-gradient(to right bottom, #CE9FFC, #7367F0);
 
 .footer {
 	background-color: rgb(123,195,20);
-	height: 80px;
+	height: 50px;
 	display: flex;
 	align-items: center;
 }
 
 .footer nav {
-	font-family: sans-serif;
- 	font-size: 2em;
- 	color: white;
  	margin-left: 20px;
 }
