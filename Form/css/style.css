@@ -1,0 +1,118 @@
+@import url(reset.css);
+
+body {
+	height: 100%;
+}
+
+a {
+	text-decoration: none;
+	color: white;
+}
+
+.page {
+	font-family: Verdana, sans-serif;
+	background: linear-gradient(to bottom right, hotpink, blue);
+	padding-bottom: 30px;
+}
+
+
+form {
+	width: 80%;
+	margin: auto;
+	color: white;
+}
+
+h1 {
+	font-size: 30px;
+	font-weight: bold;
+	display: flex;
+	justify-content: center;
+	padding: 30px 0;
+}
+
+input, select, textarea {
+	display: block;
+	width: 100%;
+	font-size: 20px;
+	color: lightgrey;
+	background: transparent;
+	border: none;
+	border-bottom: 2px solid white;
+}
+
+select {
+	background: white;
+	border: none;
+	font-size: 10pt;
+}
+
+textarea {
+	border: 1px solid white;
+	border-radius: 10px;
+	height: 100px;
+}
+
+input {
+	height: 20px;
+}
+
+label, span {
+	line-height: 2rem;
+	font-family: Verdana;
+	font-size: 10pt;
+}
+
+label {
+	display: block;
+	margin-top: 20px;
+}
+
+.main {
+	font-size: 1em;
+	margin: 12px;
+	padding: 6px;
+	text-align: center;
+}
+
+input:focus, textarea:focus, select:focus {
+	outline: none;
+}
+
+input[type="radio"], input[type="checkbox"] {
+	display: inline-block;
+	width: 20px;
+	vertical-align: middle;
+} 
+input[type="email"] {
+	margin-bottom: 20px;
+}
+
+input[type="submit"] {
+	background-color: white;
+	color: black;
+	height: 50px;
+	cursor: pointer;
+	margin-top: 20px;
+}
+
+input[type="submit"]:hover {
+	background-color: white;
+	color: black;
+}
+
+@media screen and (min-width: 720px){
+	.page {
+		height: 100vh;
+	}
+
+	form {
+		display: flex;
+		justify-content: space-around;
+	}
+	.column {
+		margin: 15%;
+	}
+
+}
+
+
